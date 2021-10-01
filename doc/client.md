@@ -1,17 +1,5 @@
 
-# Getting Started with Excitesms
-
-## Introduction
-
-Get familiar with our APIs and technical resources in your favorite languages.
-
-## Installation
-
-The following section explains how to use the ExcitesmsLib library in a new project.
-
-## Initialize the API Client
-
-**_Note:_** Documentation for the client can be found [here.](/doc/client.md)
+# Client Class Documentation
 
 The following parameters are configurable for the API Client:
 
@@ -31,16 +19,13 @@ const client = new Client({
 })
 ```
 
-## Authorization
+## Excitesms Client
 
-This API uses `OAuth 2 Bearer token`.
+The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
-## List of APIs
+## Controllers
 
-* [Misc](/doc/controllers/misc.md)
-
-## Classes Documentation
-
-* [ApiResponse](/doc/api-response.md)
-* [ApiError](/doc/api-error.md)
+| Name | Description |
+|  --- | --- |
+| misc | Gets MiscController |
 
